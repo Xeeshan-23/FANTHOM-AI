@@ -96,3 +96,35 @@ body {
     text-decoration: line-through;
     color: #94a3b8;
 }
+
+/* --- Mobile Responsiveness --- */
+@media (max-width: 768px) {
+    /* 1. Stack the main app container (Sidebar + Main Area) */
+    body, .app-container {
+        flex-direction: column !important;
+        height: auto !important;
+        overflow-y: auto !important;
+    }
+
+    /* 2. Make the sidebar full width instead of fixed width */
+    .sidebar {
+        width: 100% !important;
+        height: auto !important;
+        max-height: 250px; /* Optional: keeps sidebar from taking up the whole screen */
+        border-right: none !important;
+        border-bottom: 1px solid #e2e8f0;
+    }
+
+    /* 3. Stack the Video Panel and the AI Summary Panel */
+    .main-content, main {
+        flex-direction: column !important;
+        width: 100% !important;
+    }
+
+    /* 4. Ensure left and right panels take up 100% width on mobile */
+    .left-panel, .right-panel {
+        width: 100% !important;
+        min-width: 100% !important;
+        height: auto !important;
+    }
+}
