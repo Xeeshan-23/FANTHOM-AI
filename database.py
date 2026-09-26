@@ -10,7 +10,7 @@ MEETINGS_DB = {
         "date": "2026-09-24T14:30:00Z",
         "duration": "17m 08s",
         "participants": ["Tilt Brush (PMM)", "Cherrie (Interviewee)"],
-        "video_url": "https://www.youtube.com/embed/vApI2SSxxUA?start=23&enablejsapi=1&origin=http://127.0.0.1:8000",
+        "video_url": "https://www.youtube.com/embed/vApI2SSxxUA?start=23&enablejsapi=1&origin=https://fanthom-ai-gamma.vercel.app/",
         "raw_transcript": (
             "[00:00 - 01:14] Introduction and Clarification: The interviewee, Cherrie, confirms her role as the PM for Tilt Brush and outlines her plan to walk through prioritization themes, criteria, and a practical application of these frameworks.\n"
             "[01:14 - 06:42] Strategic Themes: Cherrie discusses the current state of the VR market, estimating a relatively small active user base. She shifts the product's focus from monetization toward user acquisition, engagement, and exploration of the VR medium.\n"
@@ -35,7 +35,7 @@ MEETINGS_DB = {
         "date": "2026-09-25T11:00:00Z",
         "duration": "10m 05s",
         "participants": ["Interviewer", "Zeeshan (Candidate)"],
-        "video_url": "https://www.youtube.com/embed/0HYv2GvfyC8?enablejsapi=1&origin=http://127.0.0.1:8000",
+        "video_url": "https://www.youtube.com/embed/0HYv2GvfyC8?enablejsapi=1&origin=https://fanthom-ai-gamma.vercel.app/",
         "raw_transcript": (
             "[01:55] Interviewer: Let's move on to some practical Python skills. Can you write a function to check if a string is a palindrome?\n"
             "[01:59] Zeeshan: Sure, the simplest way is to reverse the string using slicing and compare it to the original.\n"
@@ -68,7 +68,7 @@ MEETINGS_DB = {
         "date": "2026-09-24T15:00:00Z",
         "duration": "08m 15s",
         "participants": ["Sarah (Lead)", "Zeeshan (AI Engineer)"],
-        "video_url": "https://www.youtube.com/embed/MbnuZRgAN8E?start=25&enablejsapi=1&origin=http://127.0.0.1:8000",
+        "video_url": "https://www.youtube.com/embed/MbnuZRgAN8E?start=25&enablejsapi=1&origin=https://fanthom-ai-gamma.vercel.app/",
         "raw_transcript": (
             "[02:35] Sarah: Before we lock in the new model, we need to ensure the data pipeline handles tokenization correctly to avoid the accuracy drops we saw last week.\n"
             "[03:15] Zeeshan: Absolutely. The key is strict enforcement—we have to use the exact tokenizer associated with the specific HuggingFace model, otherwise the embeddings get misaligned and the model outputs garbage.\n"
